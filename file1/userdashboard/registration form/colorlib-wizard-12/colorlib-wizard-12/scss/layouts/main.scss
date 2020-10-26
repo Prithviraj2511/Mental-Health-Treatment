@@ -1,0 +1,161 @@
+.signup-form {
+    position: relative;
+    .steps {
+        display: none;
+    }
+}
+.disabled {
+    display: none;
+}
+label {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    font-family: 'Montserrat';
+}
+input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #ebebeb;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 22px;
+    @include transition(.3s ease);
+    padding-top: 30px;
+    padding-bottom: 3px;
+    -webkit-appearance: none;
+     &:focus + .form-label{
+        top: 4px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #999;
+    }
+    &:invalid + .form-label {
+        display: block;
+    }
+}
+.form-label {
+    position: absolute;
+    @include transition(.25s ease);
+    left: 0;
+    top: 25px;
+}
+label.error {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    &:after {
+        font-family: 'Material-Design-Iconic-Font';
+        position: absolute;
+        content: '\f1f4';
+        right: 0px;
+        top: 30px;
+        font-size: 18px;
+        color: $red-color;
+    }
+}
+.form-label-error {
+    color: $red-color ;
+}
+input.error {
+    border-bottom: 3px solid $red-color;
+}
+input.error {
+    + .form-label {
+        top: 4px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+input.valid {
+    + .form-label {
+        display: none;
+
+    }
+}
+fieldset  {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.wizard {
+    @extend display-flex;
+    @include justify-content(space-between);
+    padding: 0 15px 0 55px;
+}
+.content {
+    width: 334px;
+    padding-bottom: 25px;
+}
+.actions {
+    @extend display-flex;
+    @include  align-items(center);
+    ul {
+        @extend list-type-ulli;
+        @extend display-flex;
+        margin: 0 -5px;
+        li {
+            padding: 0 5px;
+            a {
+                font-size: 50px;
+                text-decoration: none;
+                .zmdi {
+                    width: 90px;
+                    height: 90px;
+                    @include border-radius(50%);
+                    @extend display-flex;
+                    @include  align-items(center);
+                    @include justify-content(center);
+                }
+            }
+        }
+    }
+}
+.zmdi-chevron-right {
+    color: #fff;
+    background: $body-bg;
+}
+.zmdi-chevron-left {
+    color: #999;
+    background: #ebebeb;
+}
+.form-error {
+    .zmdi-arrow-right {
+        color: $red-color;
+    }
+}
+.field-icon {
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin-top: -29px;
+}
+.footer {
+    background: #0184d2;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    bottom: -115px;
+}
+.footer-0 {
+    height: 188px;
+}
+.footer-1 {
+    height: 376px;
+}
+.footer-2 {
+    height: 564px;
+}
+.footer-3 {
+    height: 752px;
+}
+#steps-uid-0-p-4 {
+    padding-bottom: 16px;
+}
+
+

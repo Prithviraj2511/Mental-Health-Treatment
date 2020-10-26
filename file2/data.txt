@@ -1,0 +1,42 @@
+
+PLUGINS - Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf~pdf
+
+PLUGINS - Chrome PDF Viewer::::application/pdf~pdf
+
+PLUGINS - Native Client::::application/x-nacl~,application/x-pnacl~
+
+PLUGINS - Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf~pdf
+
+PLUGINS - Chrome PDF Viewer::::application/pdf~pdf
+
+PLUGINS - Native Client::::application/x-nacl~,application/x-pnacl~
+
+PLUGINS - Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf~pdf
+
+PLUGINS - Chrome PDF Viewer::::application/pdf~pdf
+
+PLUGINS - Native Client::::application/x-nacl~,application/x-pnacl~
+
+PLUGINS - Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf~pdf
+
+PLUGINS - Chrome PDF Viewer::::application/pdf~pdf
+
+PLUGINS - Native Client::::application/x-nacl~,application/x-pnacl~
+
+PLUGINS - Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf~pdf
+
+PLUGINS - Chrome PDF Viewer::::application/pdf~pdf
+
+PLUGINS - Native Client::::application/x-nacl~,application/x-pnacl~
+
+PLUGINS - Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf~pdf
+
+PLUGINS - Chrome PDF Viewer::::application/pdf~pdf
+
+PLUGINS - Native Client::::application/x-nacl~,application/x-pnacl~
+
+PLUGINS - Chrome PDF Plugin::Portable Document Format::application/x-google-chrome-pdf~pdf
+
+PLUGINS - Chrome PDF Viewer::::application/pdf~pdf
+
+PLUGINS - Native Client::::application/x-nacl~,application/x-pnacl~

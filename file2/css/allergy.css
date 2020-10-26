@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; 
+} 
+
+body {
+    color: black;
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    height: 80px;
+    font-size: 3rem;
+    line-height: initial;
+    align-items: center;
+    
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color:rgba(75,69,176,1) ;
+    color: white;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: black;
+    font-size: 18px;
+    
+}
+
+  .containerrr {
+  margin-left: 12.5%;
+  margin-bottom: 10px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content p {
+  color: white;
+
+}
+
+.content h2 {
+  color: white;
+}
+/*line*/
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white; /*#2D4B8B #235380;*/
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+/*dot*/
+.containerr {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/*inside dot*/
+.containerr::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color:rgba(75,69,176,1);
+  border: 4px solid white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  border: 3px solid white;
+  padding: 20px 30px;
+  background-color: rgba(75,69,176,1);
+  position: relative;
+  border-radius: 6px;
+}
+
+  .containerr {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+.judgecont {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:760px) {
+  .judgecont{
+    width: 100%;
+  }
+}
+
+.faqHeader {
+  font-size: 60px;
+  margin: 20px;
+  font-family: Georgia;
+  text-shadow: 2px 2px 5px orange;
+
+}
+
